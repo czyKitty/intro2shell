@@ -1,0 +1,4 @@
+#!/bin/bash
+[$[$RANDOM %6] == 0]&& echo "you lose"&& reboot|| 
+echo "Luck boy"
+
